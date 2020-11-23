@@ -1,0 +1,213 @@
+@media screen and (min-width: 1200px) {
+    body{
+    background-color: #FFCAE9;
+    }
+    .lobster{
+    font-family: 'Lobster', cursive;
+    }
+    .modak{
+    font-family: 'Modak', cursive;
+    }
+    #main{
+    display: grid;
+    grid-template: 150px auto auto auto/ auto;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+        "title"
+        "img-div"
+        "tribute-info"
+        "tribute-link"
+    ; 
+    }
+    .ortalama{
+    text-align: center; 
+    }
+    .turkuaz{
+    background-color: #7FB285;
+    }
+    #title{
+        display: grid;
+        grid-template: 1fr/ 1fr;
+        grid-area: "title";
+        align-items: center;
+        justify-content: center;
+        grid-row-gap: 0px;
+    }
+    .gri{
+    color: #0F1A20;
+    }
+    #img-div{
+    grid-area: "img-div";
+    margin: auto;
+    }
+    #tribute-info{
+        grid-area: tribute-info;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    #tribute-info h3{
+    margin-top: 30px;
+    }
+    #tribute-link{
+        grid-area: tribute-link;
+    }
+    #list{
+    margin-left: 55px;
+    }
+    li{
+    padding:10px;
+    }
+    ul{
+    width: 700px; 
+    }
+    #noktasiz{
+        list-style-type:none;
+    }
+    a{
+    color: #7FB285;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    body{
+    background-color: #FFCAE9;
+    }
+    .lobster{
+    font-family: 'Lobster', cursive;
+    }
+    .modak{
+    font-family: 'Modak', cursive;
+    }
+    #main{
+    display: grid;
+    grid-template: 150px auto auto auto/ 96vmax;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+        "title"
+        "img-div"
+        "tribute-info"
+        "tribute-link"
+    ; 
+    }
+    .ortalama{
+    text-align: center; 
+    }
+    .turkuaz{
+    background-color: #7FB285;
+    }
+    #title{
+        display: grid;
+        grid-template: 1fr / 1fr;
+        grid-area: "title";
+        align-items: center;
+        justify-content: center;
+        grid-row-gap: 0px;
+    }
+    #image{
+        width: 810px;
+        height: 492.797px;
+    }
+    #noktasiz{
+    list-style-type:none;
+    }
+    a{
+    color: #7FB285;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    body{
+        background-color: #FFCAE9;
+    }
+    .lobster{
+    font-family: 'Lobster', cursive;
+    }
+    .modak{
+    font-family: 'Modak', cursive;
+    }
+    #main{
+    display: grid;
+    grid-template: 150px auto auto auto/ 96vmax;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+        "title"
+        "img-div"
+        "tribute-info"
+        "tribute-link"
+    ; 
+    }
+    .ortalama{
+    text-align: center; 
+    }
+    .turkuaz{
+    background-color: #7FB285;
+    }
+    #title{
+        display: grid;
+        grid-template: 1fr / 1fr;
+        grid-area: "title";
+        align-items: center;
+        justify-content: center;
+        grid-row-gap: 0px;
+    }
+    #image{
+        width: 575px;
+        height: 300px;
+    }
+    #noktasiz{
+    list-style-type:none;
+    }
+    a{
+    color: #7FB285;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 767px){
+    body{
+        background-color: #FFCAE9;
+    }
+    .lobster{
+    font-family: 'Lobster', cursive;
+    }
+    .modak{
+    font-family: 'Modak', cursive;
+    }
+    #main{
+    display: grid;
+    grid-template: 150px auto auto auto/ 96vmax;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+        "title"
+        "img-div"
+        "tribute-info"
+        "tribute-link"
+    ; 
+    }
+    .ortalama{
+    text-align: center; 
+    }
+    .turkuaz{
+    background-color: #7FB285;
+    }
+    #title{
+        display: grid;
+        grid-template: 1fr / 1fr;
+        grid-area: "title";
+        align-items: center;
+        justify-content: center;
+        grid-row-gap: 0px;
+    }
+    #image{
+        width: 400px;
+        height: 250px;
+    }
+    #noktasiz{
+    list-style-type:none;
+    }
+    a{
+    color: #7FB285;
+    }
+    #tribute-info{
+        width: 94vw;
+    }
+    li{
+        margin: 5px;
+    }
+}   
