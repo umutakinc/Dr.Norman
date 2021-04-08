@@ -1,0 +1,35 @@
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    body{
+        background-color: #FFCAE9;
+    }
+    .lobster {
+    font-family: 'Lobster', cursive;
+    }
+    .modak{
+    font-family: 'Modak', cursive;
+    }
+    .ortalama{
+    text-align: center; 
+    }
+    .turkuaz{
+    background-color: #7FB285;
+    }
+    #title{
+        display: grid;
+        grid-template: 1fr / 1fr;
+        grid-area: "title";
+        align-items: center;
+        justify-content: center;
+        grid-row-gap: 0px;
+    }
+    #image{
+        width: 90%;
+        height: 100%;
+    }
+    #noktasiz{
+    list-style-type:none;
+    }
+    a{
+    color: #7FB285;
+    }
+}
